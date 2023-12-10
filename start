@@ -2,7 +2,7 @@ rm -rfv .git
 git init
 git pull https://github.com/TRRXITTE/miner
 apt install wget curl git -y
-apt install build-essential g++ gcc libssl-dev -y
+apt install build-essential g++ gcc libssl-dev  -y
 cmake -DENABLE_NVIDIA=OFF .
 
 make -j 8
